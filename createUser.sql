@@ -1,0 +1,6 @@
+CREATE LOGIN empresa
+ WITH PASSWORD = '1234'
+
+ GO
+
+ CREATE USER SAM FOR LOGIN empresa
